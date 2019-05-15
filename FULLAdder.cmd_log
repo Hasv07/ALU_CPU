@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FULLAdder.ngc FULLAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FULLAdder_map.ncd FULLAdder.ngd FULLAdder.pcf 
+par -w -intstyle ise -ol high -mt off FULLAdder_map.ncd FULLAdder.ncd FULLAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULLAdder.twx FULLAdder.ncd -o FULLAdder.twr FULLAdder.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FULLAdder.ngc FULLAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FULLAdder_map.ncd FULLAdder.ngd FULLAdder.pcf 
+par -w -intstyle ise -ol high -mt off FULLAdder_map.ncd FULLAdder.ncd FULLAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULLAdder.twx FULLAdder.ncd -o FULLAdder.twr FULLAdder.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FULLAdder.ngc FULLAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FULLAdder_map.ncd FULLAdder.ngd FULLAdder.pcf 
+par -w -intstyle ise -ol high -mt off FULLAdder_map.ncd FULLAdder.ncd FULLAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULLAdder.twx FULLAdder.ncd -o FULLAdder.twr FULLAdder.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FULLAdder.ngc FULLAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FULLAdder_map.ncd FULLAdder.ngd FULLAdder.pcf 
+par -w -intstyle ise -ol high -mt off FULLAdder_map.ncd FULLAdder.ncd FULLAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULLAdder.twx FULLAdder.ncd -o FULLAdder.twr FULLAdder.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FULLAdder.ngc FULLAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FULLAdder_map.ncd FULLAdder.ngd FULLAdder.pcf 
+par -w -intstyle ise -ol high -mt off FULLAdder_map.ncd FULLAdder.ncd FULLAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULLAdder.twx FULLAdder.ncd -o FULLAdder.twr FULLAdder.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/FULLAdder.xst" -ofn "D:/programming/codes/Alu/FULLAdder.syr" 

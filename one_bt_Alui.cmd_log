@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 one_bt_Alui.ngc one_bt_Alui.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o one_bt_Alui_map.ncd one_bt_Alui.ngd one_bt_Alui.pcf 
+par -w -intstyle ise -ol high -mt off one_bt_Alui_map.ncd one_bt_Alui.ncd one_bt_Alui.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml one_bt_Alui.twx one_bt_Alui.ncd -o one_bt_Alui.twr one_bt_Alui.pcf 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+xst -intstyle ise -ifn "D:/programming/codes/Alu/one_bt_Alui.xst" -ofn "D:/programming/codes/Alu/one_bt_Alui.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 one_bt_Alui.ngc one_bt_Alui.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o one_bt_Alui_map.ncd one_bt_Alui.ngd one_bt_Alui.pcf 

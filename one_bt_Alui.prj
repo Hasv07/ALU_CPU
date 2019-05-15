@@ -1,0 +1,4 @@
+vhdl work "Mux4x1.vhd"
+vhdl work "Mux2x1.vhd"
+vhdl work "FULLAdder.vhd"
+vhdl work "one_bt_Alui.vhd"
